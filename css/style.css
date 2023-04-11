@@ -116,9 +116,11 @@ button {
 }
 
 .menu {
+	white-space: nowrap;
 	display: flex;
 	gap: 0 20px;
 }
+
 
 .logo {
 	justify-self: center;
@@ -297,6 +299,9 @@ margin-bottom: 20px;
  padding: 9px 10px;
 }
 
+.menu__link:hover {
+	color:#bd10d8 ;
+}
 
 .video span {
 	font-size: 13px;
@@ -677,7 +682,11 @@ color: #CACAD6;
 		border-bottom: 1px solid #5c5c5e;
 		font-size: 25px;
 		display: inline-block;
+		transition: all 0.2s ease-in;
 	}
+
+	
+
 	.nav {
 		/* z-index: 2;
 		position: fixed; */
